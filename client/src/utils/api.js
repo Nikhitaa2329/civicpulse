@@ -4,7 +4,9 @@ import axios from 'axios';
 // During development, the Vite proxy forwards /api/* to http://localhost:5000
 // In production, this would point to your deployed Render URL
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL
+    ? `${import.meta.env.VITE_API_URL}/api`
+    : '/api',
 });
 
 // Request interceptor — runs before EVERY request this instance makes
