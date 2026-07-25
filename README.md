@@ -6,13 +6,6 @@ A community-verified civic issue reporting and resolution platform built for Tam
 
 ---
 
-## Live Demo
-
-- **Frontend:** [https://civicpulse.vercel.app](https://civicpulse.vercel.app)
-- **Backend API:** [https://civicpulse-api.onrender.com](https://civicpulse-api.onrender.com)
-
----
-
 ## Demo Credentials
 
 ### Admin
